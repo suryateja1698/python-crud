@@ -8,7 +8,7 @@ db = SQLAlchemy(app)
 
 class Player(db.Model):
     # If we want to create table in different name 'players', by default it
-    # used class name
+    # use class name
     __tablename__ = 'players'
 
     id = db.Column(db.Integer, primary_key=True)
